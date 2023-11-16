@@ -57,34 +57,90 @@ public class NestedForLoop {
         //Program 3::
         //To print the armstrong numbers lies between 1 to n
 
-        System.out.println("Enter the number: ");
-        int n= sc.nextInt();
-        int temp1,temp2,count=0,rem,sum=0,x,y;
-        for (int i=1;i<=n;i++)
-        {
-            temp1=i;count=0;sum=0;
-            for (;temp1>0;)
-            {
-              temp1=temp1/10;
-              count++;
+//        System.out.println("Enter the number: ");
+//        int n= sc.nextInt();
+//        int temp1,temp2,count=0,rem,sum=0,x,y;
+//        for (int i=1;i<=n;i++)
+//        {
+//            temp1=i;count=0;sum=0;
+//            for (;temp1>0;)
+//            {
+//              temp1=temp1/10;
+//              count++;
+//            }
+//            temp2=i;
+//            for (;temp2>0;)
+//            {
+//                rem=temp2%10;
+//                x=1;y=count;
+//                while (y>0)
+//                {
+//                    x=x*rem;
+//                    y--;
+//                }
+//                sum=sum+x;
+//                temp2=temp2/10;
+//            }
+//            if (i==sum)
+//            {
+//                System.out.print(i+" ");
+//            }
+//        }
+
+
+        //Program 4::
+        //To print the strong number
+
+//        int fact,sum=0,i,temp,n,rem;
+//        n= sc.nextInt();
+//        temp=n;
+//        for (;temp>0;)
+//        {
+//            rem=temp%10;
+//            if (rem==0)
+//            {
+//                fact=1;
+//            }
+//            else
+//            {
+//                fact=1;
+//                for (i=1;i<=rem;i++)
+//                    fact*=i;
+//            }
+//            sum+=fact;
+//            temp=temp/10;
+//        }
+//        if (sum==n)
+//        {
+//            System.out.println("strong");
+//        }
+//        else
+//        {
+//            System.out.println("Not a strong number");
+//        }
+
+        //Program 5::
+        //print the palindrome number between 1 to n
+        int n,rem,rev=0,temp;
+
+        System.out.println("enter the value of n");
+        n=sc.nextInt();
+
+
+        for (int i=1;i<=n;i++){
+            temp=i;
+            for (;temp>0;){
+                rem=temp%10;
+                rev=rev*10+rem;
+                temp=temp/10;
             }
-            temp2=i;
-            for (;temp2>0;)
-            {
-                rem=temp2%10;
-                x=1;y=count;
-                while (y>0)
-                {
-                    x=x*rem;
-                    y--;
-                }
-                sum=sum+x;
-                temp2=temp2/10;
-            }
-            if (i==sum)
-            {
+            if(rev==i){
                 System.out.print(i+" ");
             }
+            rev=0;
         }
+
+
+
     }
 }
