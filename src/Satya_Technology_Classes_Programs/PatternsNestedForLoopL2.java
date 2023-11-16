@@ -112,13 +112,55 @@ public class PatternsNestedForLoopL2 {
         //  CCC
         // BBBB
         //AAAAA
-        char i,j;
-        for ( i='E';i>='A';i--){
-            for ( j=i;j>'A';j--)
-                System.out.print(" ");
-            for (j='E';j>=i;j--)
-                System.out.print(i);
+//        char i,j;
+//        for ( i='E';i>='A';i--){
+//            for ( j=i;j>'A';j--)
+//                System.out.print(" ");
+//            for (j='E';j>=i;j--)
+//                System.out.print(i);
+//            System.out.println();
+//        }
+
+
+        //Program 8::
+//        int i,j;
+//        for ( i=65;i<=68;i++){
+//            for ( j=65;j<=68;j++)
+//                System.out.print(i+" ");
+//
+//            System.out.println();
+//        }
+
+        //Program 9::
+        int i,j;
+        for ( i=1;i<=6;i++){
+            for ( j=1;j<=5;j++) {
+                if (i == 1 && j == 3)
+                    System.out.print("*");
+                else if ((i == 2 && j == 2) ||(i==2&& j==4))
+                    System.out.print("*");
+                else if (i == 3  || i == 6)
+                    System.out.print("*");
+                else if ((i==4&&j==1)||(i==4&&j==5)) {
+                    System.out.print("*");
+                }
+                else if ((i==5&&j==1)||(i==5&&j==5)) {
+                        System.out.print("*");
+                } else
+                    System.out.print(" ");
+            }
             System.out.println();
         }
+//        for ( i=1;i<=5;i++){
+//            for ( j=1;j<=5;j++) {
+//                if(i==1||j==1||i==5||j==5)
+//                    System.out.print("*");
+//                else
+//                    System.out.print(" ");
+//            }
+//            System.out.println();
+//        }
+
+
     }
 }
