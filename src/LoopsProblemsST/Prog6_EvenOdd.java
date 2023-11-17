@@ -8,17 +8,21 @@ public class Prog6_EvenOdd {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int num= sc.nextInt();
-        int sum=0,rem = 0;
+        int rem = 0,count=0,countEven=0,countOdd=0;
         while (num>0){
             rem=num%10;
+            count++;
             if (rem%2==0)
-                System.out.print("Even ");
+                countEven++;
             else
-                System.out.print("odd ");
+                countOdd++;
             num=num/10;
         }
-
-
+        int totalCount=countEven+countOdd;
+        if (totalCount==count)
+            System.out.print("hey!");
+        System.out.println(countOdd);
+        System.out.println(countEven);
 
     }
 }

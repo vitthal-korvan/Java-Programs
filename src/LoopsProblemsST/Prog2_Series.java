@@ -49,15 +49,13 @@ public class Prog2_Series {
         //d. 1 2 2 4 8 32
 //        System.out.print("Enter the number: ");
 //        int num= sc.nextInt();
-//        int sum=1;
-//
-//        for (int i = 0; i < num; i++) {
-//            System.out.print(sum + " ");
-//            if (i % 2 == 0) {
-//                sum *= 2;
-//            } else {
-//                sum *= 4;
-//            }
+//        int a=1,b=2,c;
+//        System.out.print(a+" "+b+" ");
+//        for (int i = 2; i <= num; i++) {
+//            c=a*b;
+//            System.out.print(c+ " ");
+//            a=b;
+//            b=c;
 //        }
 
         //e. 2 3 4 6 6 9 8 12 10 15
@@ -78,16 +76,17 @@ public class Prog2_Series {
 //        }
 
         //f. 1 5 2 4 3 3 4 2 5 1
-//        int sum=0, sum1 = 0;
-//        for (int i = 1,val=6,count=0; i <= 10||val>=0||count<=5; i++,val--,count++) {
-//            if(i % 2 == 0){
-//                sum=val-1;
-//            }
-//           else{
-//                sum1=count+1;
-//           }
-//            System.out.print(sum1+" "+sum+" ");
-//        }
+        int count=0, count2 = 6;
+        for (int i = 0; i <= 10; i++) {
+            if(i % 2 == 0){
+                count+=1;
+                System.out.print(count+" ");
+            }
+           else{
+                count2-=1;
+                System.out.print(count2+" ");
+           }
+        }
 
         //g.0 7 26 63 124
 //        System.out.print("Enter the number: ");
