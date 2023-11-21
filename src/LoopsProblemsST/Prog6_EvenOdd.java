@@ -19,8 +19,8 @@ public class Prog6_EvenOdd {
             num=num/10;
         }
         int totalCount=countEven+countOdd;
-        if (totalCount==count)
-            System.out.print("hey!");
+//        if (totalCount==count)
+//            System.out.print(true);
         System.out.println(countOdd);
         System.out.println(countEven);
 

@@ -123,6 +123,10 @@ public class PatternsNestedForLoopL2 {
 
 
         //Program 8::
+        //65 65 65 65
+        //66 66 66 66
+        //67 67 67 67
+        //68 68 68 68
 //        int i,j;
 //        for ( i=65;i<=68;i++){
 //            for ( j=65;j<=68;j++)
@@ -132,34 +136,117 @@ public class PatternsNestedForLoopL2 {
 //        }
 
         //Program 9::
-        int i,j;
-        for ( i=1;i<=6;i++){
-            for ( j=1;j<=5;j++) {
-                if (i == 1 && j == 3)
-                    System.out.print("*");
-                else if ((i == 2 && j == 2) ||(i==2&& j==4))
-                    System.out.print("*");
-                else if (i == 3  || i == 6)
-                    System.out.print("*");
-                else if ((i==4&&j==1)||(i==4&&j==5)) {
-                    System.out.print("*");
-                }
-                else if ((i==5&&j==1)||(i==5&&j==5)) {
-                        System.out.print("*");
-                } else
-                    System.out.print(" ");
-            }
-            System.out.println();
-        }
-//        for ( i=1;i<=5;i++){
+        //  *
+        // * *
+        //*****
+        //*   *
+        //*   *
+        //*****
+//        int i,j;
+//        for ( i=1;i<=6;i++){
 //            for ( j=1;j<=5;j++) {
-//                if(i==1||j==1||i==5||j==5)
+//                if (i == 1 && j == 3)
 //                    System.out.print("*");
-//                else
+//                else if ((i == 2 && j == 2) ||(i==2&& j==4))
+//                    System.out.print("*");
+//                else if (i == 3  || i == 6)
+//                    System.out.print("*");
+//                else if ((i==4&&j==1)||(i==4&&j==5)) {
+//                    System.out.print("*");
+//                }
+//                else if ((i==5&&j==1)||(i==5&&j==5)) {
+//                        System.out.print("*");
+//                } else
 //                    System.out.print(" ");
 //            }
 //            System.out.println();
 //        }
+
+        //Program 10::
+        //    A
+        //   BA
+        //  CBA
+        // DCBA
+        //EDCBA
+//        char i,j;
+//        for ( i='A';i<='E';i++){
+//            for ( j=i;j<'E';j++)
+//                System.out.print(" ");
+//            for (j=i;j>='A';j--)
+//                System.out.print(j);
+//            System.out.println();
+//        }
+
+        //Program 11::
+        //    1
+        //   22
+        //  333
+        // 4444
+        //55555
+//        int i,j;
+//        for ( i=1;i<=5;i++){
+//            for ( j=i;j<5;j++)
+//                System.out.print(" ");
+//            for (j=i;j>=1;j--)
+//                System.out.print(i);
+//            System.out.println();
+//        }
+
+        //Program 12::
+        //    5
+        //   44
+        //  333
+        // 2222
+        //11111
+//        int i,j;
+//        for ( i=5;i>=1;i--){
+//            for ( j=i;j>1;j--)
+//                System.out.print(" ");
+//            for (j=i;j<=5;j++)
+//                System.out.print(i);
+//            System.out.println();
+//        }
+
+        //Program 13::
+        //    5
+        //   45
+        //  345
+        // 2345
+        //12345
+//        int i,j;
+//        for ( i=5;i>=1;i--){
+//            for ( j=i;j>1;j--)
+//                System.out.print(" ");
+//            for (j=i;j<=5;j++)
+//                System.out.print(j);
+//            System.out.println();
+//        }
+
+        //Program 14::
+        //    5
+        //   54
+        //  543
+        // 5432
+        //54321
+//        int i,j;
+//        for ( i=5;i>=1;i--){
+//            for ( j=i;j>1;j--)
+//                System.out.print(" ");
+//            for (j=5;j>=i;j--)
+//                System.out.print(j);
+//            System.out.println();
+//        }
+
+        //Program 15::
+        //
+        int i,j;
+        for ( i=5;i>=1;i--){
+            for ( j=i;j>1;j--)
+                System.out.print(" ");
+            for (j=5;j>=i;j--)
+                System.out.print(j);
+            System.out.println();
+        }
 
 
     }
