@@ -121,6 +121,5 @@ public class NestedIfElseStatement {
         else {
             System.out.println("Invalid Email");
         }
-
     }
 }

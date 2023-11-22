@@ -32,6 +32,13 @@ package Satya_Technology_Classes_Programs;
 //Example::
 //int array[5]; -> declaration of array
 //int array[5]={10,20,30,40,50}; -> Initialization of array
+
+//S. No.	Datatype	Default Value
+//1	        boolean	    false
+//2	        int	        0
+//3	        double	    0.0
+//4	        String	    null
+//5	        User-Defined 	null
 import java.util.Scanner;
 
 public class PrimitiveArray {

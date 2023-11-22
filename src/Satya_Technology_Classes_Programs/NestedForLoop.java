@@ -125,8 +125,6 @@ public class NestedForLoop {
 
         System.out.println("enter the value of n");
         n=sc.nextInt();
-
-
         for (int i=1;i<=n;i++){
             temp=i;
             for (;temp>0;){
@@ -139,8 +137,5 @@ public class NestedForLoop {
             }
             rev=0;
         }
-
-
-
     }
 }

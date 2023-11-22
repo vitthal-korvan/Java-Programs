@@ -13,9 +13,15 @@ public class TernaryOperator {
 //        System.out.println("The largest of three numbers: "+largest);
 
         //Program 3:: to check the given number is even or odd using ternary operator
-        int a = 45; String s;
-        s=(a % 2 ==0) ? "Even" : "odd";
-        System.out.println("The number is: "+s);
+//        int a = 45; String s;
+//        s=(a % 2 ==0) ? "Even" : "odd";
+//        System.out.println("The number is: "+s);
 
+        //Program 4::
+        // Palindrome Using Ternary::
+        int n = 242;
+        String str;
+        str = (n%10==n/100 )?"Palindrome":"Not a Palindrome";
+        System.out.println(str);
     }
 }

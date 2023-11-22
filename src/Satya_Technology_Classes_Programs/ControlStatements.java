@@ -32,8 +32,6 @@ package Satya_Technology_Classes_Programs;
 //     statements;
 //}
 
-
-
 import java.util.Scanner;
 
 public class ControlStatements {
@@ -48,8 +46,8 @@ public class ControlStatements {
 //            System.out.println(n+" is an odd number");
 
         //Program 2::
-        //which reads 2 floating point numbers and find their ratio if the ratio is greater than 0
-        //swap the values of these 2 number
+        //which reads 2 floating point numbers and find their ratio if the
+        // ratio is greater than 0 swap the values of these 2 number
 
 //        float num1 = sc.nextFloat();
 //        float num2 = sc.nextFloat();
@@ -140,8 +138,8 @@ public class ControlStatements {
 //            System.out.println("Not a Leap Year");
 
         //Program 11::
-        // Reads values of a,b,c from keyboard add them and after addition check whether it is in range of
-        // 100 to 200 or not
+        // Reads values of a,b,c from keyboard add them and after addition check
+        // whether it is in range of 100 to 200 or not
 //        int a = sc.nextInt();
 //        int b = sc.nextInt();
 //        int c = sc.nextInt();
@@ -150,9 +148,5 @@ public class ControlStatements {
 //            System.out.println("It is in range of 100 to 200");
 //        else
 //            System.out.println("It is not in range of 100 to 200");
-
-
-
-
     }
 }
