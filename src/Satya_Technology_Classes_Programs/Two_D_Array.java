@@ -168,8 +168,76 @@ public class Two_D_Array {
 
         //Program 8::
         //The given matrix is diagonal matrix or not
-        int row,col,i,j;
-        boolean flag=true;
+//        int row,col,i,j;
+//        boolean flag=true;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int a[][]=new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        for (i=0;i<row;i++) {
+//            for (j = 0; j < col; j++) {
+//                if (i != j) {
+//                    if (a[i][j]!=0) {
+//                        flag = false;
+//                        break;
+//                    }
+//                }
+//                else{
+//                    if (a[i][j]==0){
+//                        flag = false;
+//                        break;
+//                    }
+//                }
+//
+//            }
+//        }
+//        if (flag==true){
+//            System.out.print("Diagonal Matrix");
+//        }
+//        else
+//            System.out.println("Not a diagonal Matrix");
+
+        //Program 9::
+        //To find the sum of each row and each column of a given matrix.
+
+//        int row,col,i,j,rowsum,colsum;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int a[][]=new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        for (i=0;i<row;i++) {
+//            rowsum=0;
+//            for (j = 0; j < col; j++) {
+//                rowsum += a[i][j];
+//            }
+//            System.out.print(rowsum+" ");
+//        }
+//        for (i=0;i<row;i++) {
+//            colsum=0;
+//            for (j = 0; j < col; j++) {
+//                colsum += a[j][i];
+//            }
+//            System.out.print(colsum+" ");
+//        }
+
+        //Program 10::
+        //
+
+        int row,col,i,j,rowsum,colsum;
         System.out.print("Enter the size of the row: ");
         row= sc.nextInt();
         System.out.print("Enter the size of the col: ");
@@ -182,26 +250,18 @@ public class Two_D_Array {
             }
         }
         for (i=0;i<row;i++) {
+            rowsum=0;
             for (j = 0; j < col; j++) {
-                if (i != j) {
-                    if (a[i][j]!=0) {
-                        flag = false;
-                        break;
-                    }
-                }
-                else{
-                    if (a[i][j]==0){
-                        flag = false;
-                        break;
-                    }
-                }
-
+                rowsum += a[i][j];
             }
+            System.out.print(rowsum+" ");
         }
-        if (flag==true){
-            System.out.print("Diagonal Matrix");
+        for (i=0;i<row;i++) {
+            colsum=0;
+            for (j = 0; j < col; j++) {
+                colsum += a[j][i];
+            }
+            System.out.print(colsum+" ");
         }
-        else
-            System.out.println("Not a diagonal Matrix");
     }
 }
