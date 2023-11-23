@@ -235,9 +235,60 @@ public class Two_D_Array {
 //        }
 
         //Program 10::
-        //
+        //To find the maximum rowsum of 2d array
 
-        int row,col,i,j,rowsum,colsum;
+//        int row,col,i,j,rowsum=0,maxsum=0;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int a[][]=new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        for (i=0;i<row;i++) {
+//            rowsum=0;
+//            for (j = 0; j < col; j++) {
+//                rowsum += a[i][j];
+//            }
+//            if (rowsum>maxsum)
+//                maxsum=rowsum;
+//        }
+//        System.out.print("Maximum row sum = "+maxsum);
+
+//        //Program 11::
+//        //To exchange any two rows of the given matrix.
+//        int row,col,i,j,row1,row2,temp;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int a[][]=new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        System.out.print("Enter the rows to exchange: ");
+//        row1= sc.nextInt();
+//        row2= sc.nextInt();
+//        for (i=0;i<row;i++) {
+//            temp=a[row1 -1][i];
+//            a[row1-1][i]=a[row2-1][i];
+//            a[row2-1][i]=temp;
+//        }
+//
+//        for (int[] n:a){
+//            System.out.print(Arrays.toString(n));
+//        }
+
+        //Program 11::
+        //To exchange any two columns of the given 2D Array.
+        int row,col,i,j,col1,col2,temp;
         System.out.print("Enter the size of the row: ");
         row= sc.nextInt();
         System.out.print("Enter the size of the col: ");
@@ -249,19 +300,17 @@ public class Two_D_Array {
                 a[i][j]= sc.nextInt();
             }
         }
+        System.out.print("Enter the columns to exchange: ");
+        col1= sc.nextInt();
+        col2= sc.nextInt();
         for (i=0;i<row;i++) {
-            rowsum=0;
-            for (j = 0; j < col; j++) {
-                rowsum += a[i][j];
-            }
-            System.out.print(rowsum+" ");
+            temp=a[i][col1-1];
+            a[i][col1-1]=a[i][col2-1];
+            a[i][col2-1]=temp;
         }
-        for (i=0;i<row;i++) {
-            colsum=0;
-            for (j = 0; j < col; j++) {
-                colsum += a[j][i];
-            }
-            System.out.print(colsum+" ");
+
+        for (int[] n:a){
+            System.out.print(Arrays.toString(n));
         }
     }
 }
