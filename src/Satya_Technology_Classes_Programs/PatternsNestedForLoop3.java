@@ -14,7 +14,7 @@ public class PatternsNestedForLoop3 {
         //   B B
         //    A
 //        char i,j;
-//        for ( i='A';i<='D';i++){
+//        for ( i='A';i<='D';i++){ //row declaration
 //            for (j=i;j<='D';j++) {
 //                System.out.print(" ");
 //            }
@@ -70,16 +70,189 @@ public class PatternsNestedForLoop3 {
         //*       *
         //*       *
         //* * * * *
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for (j=1;j<=n;j++) {
+//                if (i == 1 || i == n ||j == 1 || j == n)
+//                    System.out.print("* ");
+//                else
+//                    System.out.print("  ");
+//            }
+//            System.out.println();
+//        }
+
+
+        //Program 4::
+        //Enter the value of n: 5
+        //    * * * * *
+        //   *       *
+        //  *       *
+        // *       *
+        //* * * * *
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for(j=i;j<n;j++){
+//                System.out.print(" ");
+//            }
+//            for (j=1;j<=n;j++) {
+//                if (i == 1 || i == n ||j == 1 || j == n)
+//                    System.out.print("* ");
+//                else
+//                    System.out.print("  ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 6::
+        //Enter the value of n: 5
+        //* * * * *
+        //* *   * *
+        //*   *   *
+        //* *   * *
+        //* * * * *
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for (j=1;j<=n;j++) {
+//                if (i == 1 || i == n ||j == 1 || j == n ||i == j|| j==n-i+1)
+//                    System.out.print("* ");
+//                else
+//                    System.out.print("  ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 7::
+        //Enter the value of n: 5
+        //* * * * *
+        // * * * * *
+        //  * * * * *
+        //   * * * * *
+        //    * * * * *
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for (j=i;j>1;j--){
+//                System.out.print(" ");
+//            }
+//            for (j=1;j<=n;j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 8::
+        //Enter the value of n: 5
+        //    * * * * *
+        //   * * * * *
+        //  * * * * *
+        // * * * * *
+        //* * * * *
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for (j=i;j<n;j++){
+//                System.out.print(" ");
+//            }
+//            for (j=1;j<=n;j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+
+        //Program 9::
+        //Enter the value of n: 4
+        //      *
+        //    * * *
+        //  * * * * *
+        //* * * * * * *
+        //  * * * * *
+        //    * * *
+        //      *
+
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for (j=i;j<n;j++){
+//                System.out.print("  ");
+//            }
+//            for (j=1;j<=2*i-1;j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//        for ( i=n-1;i>=1;i--){
+//            for (j=i;j<n;j++){
+//                System.out.print("  ");
+//            }
+//            for (j=1;j<=2*i-1;j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 10::
+        //Enter the value of n: 8
+        //*
+        //* *
+        //* * *
+        //* * * *
+        //* * *
+        //* *
+        //*
+
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<n;i++){
+//            if (i<=n/2){
+//                for (j=1;j<=i;j++){
+//                    System.out.print("* ");
+//                }
+//            }
+//            else {
+//                for (j=i;j<n;j++) {
+//                    System.out.print("* ");
+//                }
+//
+//            }
+//            System.out.println();
+//        }
+
+        //Program 11::
+        //
+
         int i,j,n;
         System.out.print("Enter the value of n: ");
         n=sc.nextInt();
 
-        for ( i=1;i<=n;i++){
-            for (j=1;j<=n;j++) {
-                if (i == 1 || i == n ||j == 1 || j == n)
+        for ( i=1;i<n;i++){
+            if (i<=n/2){
+                for (j=i;j<=n/2;j++){
                     System.out.print("* ");
-                else
-                    System.out.print("  ");
+                }
+            }
+            else {
+                for (j=i;j>n/2;j--) {
+                    System.out.print("* ");
+                }
+
             }
             System.out.println();
         }
