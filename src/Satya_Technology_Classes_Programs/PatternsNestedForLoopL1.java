@@ -73,8 +73,7 @@ public class PatternsNestedForLoopL1 {
 //        }
 
         //Program 5::
-        //Enter the number:
-        //6
+
         //AAAAA
         //BBBBB
         //CCCCC
@@ -89,14 +88,12 @@ public class PatternsNestedForLoopL1 {
 //        }
 
         //Program 6::
-        //Enter the number:
-        //5
         //ABCDE
         //ABCDE
         //ABCDE
         //ABCDE
         //ABCDE
-//        int n=sc.nextInt();
+
 //        for (int i=65;i<=69;i++){
 //            for (int j=65;j<=69;j++){
 //                System.out.print((char)j);
@@ -105,14 +102,13 @@ public class PatternsNestedForLoopL1 {
 //        }
 
         //Program 7::
-        //Enter the number:
-        //5
+
         //EEEEE
         //DDDDD
         //CCCCC
         //BBBBB
         //AAAAA
-//        int n=sc.nextInt();
+
 //        for (int i=69;i>=65;i--){
 //            for (int j=69;j>=65;j--){
 //                System.out.print((char)i);
@@ -121,14 +117,12 @@ public class PatternsNestedForLoopL1 {
 //        }
 
         //Program 8::
-        //Enter the number:
-        //5
         //EDCBA
         //EDCBA
         //EDCBA
         //EDCBA
         //EDCBA
-//        int n=sc.nextInt();
+
 //        for (int i=69;i>=65;i--){
 //            for (int j=69;j>=65;j--){
 //                System.out.print((char)j);
@@ -138,14 +132,12 @@ public class PatternsNestedForLoopL1 {
 
 
         //Program 9::
-        //Enter the number:
-        //5
+
         //ZYXWV
         //ZYXWV
         //ZYXWV
         //ZYXWV
         //ZYXWV
-//        int n=sc.nextInt();
 //        for (int i=90;i>=86;i--){
 //            for (int j=90;j>=86;j--){
 //                System.out.print((char)j);

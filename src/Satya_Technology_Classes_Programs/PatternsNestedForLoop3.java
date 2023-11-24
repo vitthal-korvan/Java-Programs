@@ -235,27 +235,185 @@ public class PatternsNestedForLoop3 {
 //            System.out.println();
 //        }
 
+
         //Program 11::
-        //
+        //Enter the value of n: 7
+        //* * *
+        //* *
+        //*
+        //*
+        //* *
+        //* * *
 
-        int i,j,n;
-        System.out.print("Enter the value of n: ");
-        n=sc.nextInt();
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<n;i++){
+//            if (i<=n/2){
+//                for (j=i;j<=n/2;j++){
+//                    System.out.print("* ");
+//                }
+//            }
+//            else {
+//                for (j=i;j>n/2;j--) {
+//                    System.out.print("* ");
+//                }
+//
+//            }
+//            System.out.println();
+//        }
 
-        for ( i=1;i<n;i++){
-            if (i<=n/2){
-                for (j=i;j<=n/2;j++){
-                    System.out.print("* ");
-                }
-            }
-            else {
-                for (j=i;j>n/2;j--) {
-                    System.out.print("* ");
-                }
+        //Program 12::
+        //Enter the value of n:
+        //4
+        //   *
+        //  * * *
+        // * * * * *
+        //* * * * * * *
 
-            }
-            System.out.println();
-        }
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//
+//        for ( i=1;i<=n;i++){
+//            for (j=i;j<n;j++){
+//                System.out.print(" ");
+//            }
+//            for (j=1;j<=2*i-1;j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 13::
+        //Hollow Pyramid Triangle
+        //Enter the value of n: 5
+        //    *
+        //   * *
+        //  *   *
+        // *     *
+        //*********
+
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//        for( i=1; i<=n; i++){//Print each row
+//            for( j=i; j<n; j++){//Print space for Pyramid shape
+//                System.out.print(" ");
+//            }
+//            for(j=1; j<2*i; j++){//print *
+//                if(i==n || (j==1 || j==2*i-1))
+//                    System.out.print("*");
+//                else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+        //Program 14::
+        //Enter the value of n: 5
+        //    1
+        //   1 1
+        //  1 2 1
+        // 1 3 3 1
+        //1 4 6 4 1
+
+//        int i,j,n,c=1;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//        for( i=0; i<n; i++){
+//            for( j=1; j<n-i; j++){
+//                System.out.print(" ");
+//            }
+//            for(j=0; j<=i; j++){
+//                if(i==0 || j==0){
+//                    c=1;
+//                    System.out.print(c+" ");
+//                }
+//                else {
+//                    c=c*(i-j+1)/j;
+//                    System.out.print(c+" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+        //Program 15::
+        //Enter the value of n: 5
+        //    1
+        //   2 3 2
+        //  3 4 5 4 3
+        // 4 5 6 7 6 5 4
+        //5 6 7 8 9 8 7 6 5
+
+//        int i,j,k,p,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//        for( i=1; i<=n; i++){
+//            for( j=1; j<=n-i; j++){
+//                System.out.print(" ");
+//            }
+//            k=i;
+//            for(j=1; j<=i; j++) {
+//                System.out.print(k++ + " ");
+//            }
+//            p=k-2;
+//            for(j=i; j>1; j--) {
+//                System.out.print(p-- + " ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 16::
+        //Enter the value of n: 5
+        //    1
+        //   1 2 1
+        //  1 2 3 2 1
+        // 1 2 3 4 3 2 1
+        //1 2 3 4 5 4 3 2 1
+
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//        for( i=1; i<=n; i++){
+//            for( j=i; j<n; j++){
+//                System.out.print(" ");
+//            }
+//            for(j=1; j<=i; j++) {
+//                System.out.print(j + " ");
+//            }
+//            for(j=i-1; j>=1; j--) {
+//                System.out.print(j + " ");
+//            }
+//            System.out.println();
+//        }
+
+        //Program 17::
+        //Enter the value of n: 5
+        //    1
+        //   2 1 2
+        //  3 2 1 2 3
+        // 4 3 2 1 2 3 4
+        //5 4 3 2 1 2 3 4 5
+
+//        int i,j,n;
+//        System.out.print("Enter the value of n: ");
+//        n=sc.nextInt();
+//        for( i=1; i<=n; i++){
+//            for( j=i; j<n; j++){
+//                System.out.print(" ");
+//            }
+//            for(j=i; j>=1; j--) {
+//                System.out.print(j + " ");
+//            }
+//            for(j=2; j<=i; j++) {
+//                System.out.print(j + " ");
+//            }
+//            System.out.println();
+//        }
+
 
     }
 }
