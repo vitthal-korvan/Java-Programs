@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 //Nested If - else Statement::
 // Writing if-else inside another if-else is nested if else statement
 //If there are more than 2 alternatives to select then we choose nested if else statement

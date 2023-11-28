@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 
 //While Loop:: (Entry-controlled loop / Pre test loop)
 //It is used to execute a set of statements repeatedly as long as the condition is true.

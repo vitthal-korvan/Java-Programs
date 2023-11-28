@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 //Pattern Level-2
 import java.util.Scanner;
 

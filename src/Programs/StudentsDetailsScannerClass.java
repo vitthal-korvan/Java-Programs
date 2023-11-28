@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 import java.util.Scanner;
 
 public class StudentsDetailsScannerClass {

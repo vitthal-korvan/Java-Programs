@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 
 public class MathOperations {
     public static void main(String[] args) {

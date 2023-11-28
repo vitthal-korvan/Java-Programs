@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 //Patterns::
 import java.util.Scanner;
 public class PatternsNestedForLoopL1 {

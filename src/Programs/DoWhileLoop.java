@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 //Do-While Loop:: (Post test Loop/ Exit control loop)
 //Definition::
 //It is used to execute a set of statements repeatedly until the condition becomes false.

@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 
 //Control Statements
 // 1. conditional statement

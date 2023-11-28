@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 //For loop::
 
 //Syntax::

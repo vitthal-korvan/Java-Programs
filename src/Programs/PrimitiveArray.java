@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 //Arrays::
 //Arrays are used to store homogenous collection of data that are stored under
 //a unique name.

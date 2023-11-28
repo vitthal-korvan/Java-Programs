@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 
 import java.util.Scanner;
 //when 2 methods calls a same method at same time is called binary recursion

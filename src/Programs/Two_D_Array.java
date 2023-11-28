@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -288,29 +288,206 @@ public class Two_D_Array {
 
         //Program 11::
         //To exchange any two columns of the given 2D Array.
-        int row,col,i,j,col1,col2,temp;
+//        int row,col,i,j,col1,col2,temp;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int a[][]=new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        System.out.print("Enter the columns to exchange: ");
+//        col1= sc.nextInt();
+//        col2= sc.nextInt();
+//        for (i=0;i<row;i++) {
+//            temp=a[i][col1-1];
+//            a[i][col1-1]=a[i][col2-1];
+//            a[i][col2-1]=temp;
+//        }
+//
+//        for (int[] n:a){
+//            System.out.print(Arrays.toString(n));
+//        }
+
+        //Program 12::
+        //To sort each row of a 2D Array
+
+//        int row,col,i,j,k,temp;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int[][] a =new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        for (i=0;i<row;i++){  //for rows
+//            for (j=0;j<col;j++){   //for columns
+//                for (k=j+1;k<col;k++){
+//                    if (a[i][j]>a[i][k]){
+//                        temp=a[i][j];
+//                        a[i][j]=a[i][k];
+//                        a[i][k]=temp;
+//                    }
+//                }
+//            }
+//        }
+//
+//        for (int[] n:a){
+//            System.out.print(Arrays.toString(n)+" ");
+//        }
+
+        //Program 13::
+        //To sort each column of a 2D Array
+
+//        int row,col,i,j,k,temp;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int[][] a =new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        for (j=0;j<col;j++){ //for columns
+//            for (i=0;i<row;i++){ //for rows
+//                for (k=i+1;k<row;k++){
+//                    if (a[i][j]>a[k][j]){
+//                        temp=a[i][j];
+//                        a[i][j]=a[k][j];
+//                        a[k][j]=temp;
+//                    }
+//                }
+//            }
+//        }
+//        for (int[] n:a){
+//            System.out.print(Arrays.toString(n)+" ");
+//        }
+
+
+        //Program 14::
+        //whether the given matrix is sparse matrix
+//        int row,col,i,j;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int[][] a =new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        int halfSize,count=0;
+//        halfSize=row*col/2;
+//
+//        for (i=0;i<row;i++){ //for row
+//            for (j=0;j<col;j++){ //for cols
+//                if (a[i][j]==0){
+//                    count++;
+//                }
+//            }
+//        }
+//        if (count>halfSize){
+//            System.out.println("Sparse Matrix");
+//        }
+//        else
+//            System.out.println("Not a Sparse Matrix");
+//        for (int[] n:a){
+//            System.out.print(Arrays.toString(n)+" ");
+//        }
+
+        //Program 15::
+        //Add 2 Matrix
+
+//        int row,col,i,j;
+//        System.out.print("Enter the size of the row: ");
+//        row= sc.nextInt();
+//        System.out.print("Enter the size of the col: ");
+//        col= sc.nextInt();
+//        int[][] a =new int[row][col];
+//        int[][] b =new int[row][col];
+//        int[][] c =new int[row][col];
+//        System.out.print("Enter the elements of array a: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                a[i][j]= sc.nextInt();
+//            }
+//        }
+//        System.out.print("Enter the elements of array b: ");
+//        for (i=0;i<row;i++){
+//            for (j=0;j<col;j++){
+//                b[i][j]= sc.nextInt();
+//            }
+//        }
+//
+//        for (i=0;i<row;i++){ //for row
+//            for (j=0;j<col;j++){ //for cols
+//                c[i][j]=a[i][j]+b[i][j];
+//            }
+//        }
+//
+//        for (int[] n:c){
+//            System.out.print(Arrays.toString(n)+" ");
+//        }
+
+        //Program 16::
+        //Matrix Multiplication: 1st row with 1st column 2nd column and 3rd column same
+        //goes to 2nd and 3rd column.
+
+        int row,col,i=0,j = 0,k,row2,col2;
         System.out.print("Enter the size of the row: ");
         row= sc.nextInt();
         System.out.print("Enter the size of the col: ");
         col= sc.nextInt();
-        int a[][]=new int[row][col];
-        System.out.print("Enter the elements of array a: ");
-        for (i=0;i<row;i++){
-            for (j=0;j<col;j++){
-                a[i][j]= sc.nextInt();
+        int[][] a =new int[row][col];
+        int[][] b =new int[row][col];
+        int[][] c =new int[row][col];
+
+        System.out.print("Enter the size of the row: ");
+        row2= sc.nextInt();
+        System.out.print("Enter the size of the col: ");
+        col2= sc.nextInt();
+
+
+        if (col==row2){
+            System.out.print("Enter the elements of array a: ");
+            for (i=0;i<row;i++){
+                for (j=0;j<col;j++){
+                    a[i][j]= sc.nextInt();
+                }
+            }
+            System.out.print("Enter the elements of array b: ");
+            for (i=0;i<row;i++){
+                for (j=0;j<col;j++){
+                    b[i][j]= sc.nextInt();
+                }
+            }
+
+            for (i=0;i<row;i++){ //for row
+                for (j=0;j<col2;j++){ //for cols
+                    c[i][j]=0;
+                    for (k=0;k<col2;k++) {
+                        c[i][j] = c[i][j] + a[i][k] * b[k][j];
+                    }
+                }
             }
         }
-        System.out.print("Enter the columns to exchange: ");
-        col1= sc.nextInt();
-        col2= sc.nextInt();
-        for (i=0;i<row;i++) {
-            temp=a[i][col1-1];
-            a[i][col1-1]=a[i][col2-1];
-            a[i][col2-1]=temp;
-        }
-
-        for (int[] n:a){
-            System.out.print(Arrays.toString(n));
+        else
+            System.out.print("Multiplication is not possible");
+        for (int[] n:c){
+            System.out.print(Arrays.toString(n)+" ");
         }
     }
 }

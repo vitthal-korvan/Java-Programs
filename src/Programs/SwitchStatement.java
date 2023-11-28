@@ -1,4 +1,4 @@
-package Satya_Technology_Classes_Programs;
+package Programs;
 
 //Switch Statement::
 // It is menu driven-Programming
