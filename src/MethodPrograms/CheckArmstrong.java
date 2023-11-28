@@ -1,8 +1,8 @@
-package MethodProblems;
+package MethodPrograms;
 
 /*
 
-Program 1::
+Problem ::
 Write a class to check whether a given number is Armstrong or not using
 a function name int checkArmstrong(int num). Function should return a
 value 1 if number is Armstrong otherwise it returns 0 if not.
