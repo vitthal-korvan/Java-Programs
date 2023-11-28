@@ -455,9 +455,9 @@ public class Two_D_Array {
         int[][] b =new int[row][col];
         int[][] c =new int[row][col];
 
-        System.out.print("Enter the size of the row: ");
+        System.out.print("Enter the size of the row 2: ");
         row2= sc.nextInt();
-        System.out.print("Enter the size of the col: ");
+        System.out.print("Enter the size of the col 2: ");
         col2= sc.nextInt();
 
 
@@ -491,3 +491,4 @@ public class Two_D_Array {
         }
     }
 }
+
