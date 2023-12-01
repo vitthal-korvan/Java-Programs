@@ -8,6 +8,8 @@ in each pass, largest element is placed at right most side of an array.
 Application:
 mobile contacts are sorted by bubble sort.
 smart tv most visited apps, last visited movie timeline.
+
+
  */
 public class BubbleSort {
     public static void main(String[] args) {

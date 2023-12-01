@@ -1,6 +1,6 @@
 package ArrayPrograms;
 /*
-Accept data into two integers array A &amp; B of size 5 elements each. The program should
+Accept data into two integers array A & B of size 5 elements each. The program should
 create another array T that finds the intersection of the two arrays.
 For e.g. if A ={1,3,5,7,8}  B = {7,4,2,8,9} Then T = {7,8}
  */

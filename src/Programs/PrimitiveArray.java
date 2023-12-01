@@ -49,9 +49,9 @@ public class PrimitiveArray {
 //        int rollno[]=new int[]{101,102,103,104,105};
 //        for (int i=0;i<rollno.length;i++){
 //            System.out.print(rollno[i]+" ");
-//
 //        }
 //        System.out.println();
+
         //Program 2::
         //to store vowels in a character array and print them on the screen
 //        char vowels[]=new char[]{'a','e','i','o','u'};
@@ -72,6 +72,7 @@ public class PrimitiveArray {
 //        for (int i=0;i<bool.length;i++){
 //            System.out.print(bool[i]+" ");
 //        }
+
         //Program 5::
         //to store names of n employees in an array and print it.
 //        Scanner sc = new Scanner(System.in);
@@ -114,7 +115,7 @@ public class PrimitiveArray {
 //            num[i]= sc.nextInt();
 //            prod*=num[i];
 //        }
-//        System.out.print("Sum of array elements: "+prod);
+//        System.out.print("Product of array elements: "+prod);
 
         //Program 8::
         //To find the sum of even and odd numbers in a given array
@@ -131,8 +132,7 @@ public class PrimitiveArray {
 //            else
 //                sumOdd+=num[i];
 //        }
-//        System.out.print("Sum of Even array elements: "+sumEven);
-//        System.out.println();
+//        System.out.println("Sum of Even array elements: "+sumEven);
 //        System.out.print("Sum of Odd array elements: "+sumOdd);
 
 //        //Program 8::
@@ -152,7 +152,7 @@ public class PrimitiveArray {
 //        }
 //        System.out.print("Sum of Positive array elements: "+sumPos);
 //        System.out.println();
-//        System.out.print("Sum of Negative000000 array elements: "+sumNeg);
+//        System.out.print("Sum of Negative array elements: "+sumNeg);
 
 //        //Program 9::
 //        //To search an element in an array along with its position
@@ -177,9 +177,10 @@ public class PrimitiveArray {
 //        else
 //            System.out.println("Search is unsuccessful");
 
-//        //Program 10::
-//        //which reads a source element and replace with replacing element in a given
-//        //array
+        //Program 10::
+        //which reads a source element and replace with replacing element in a given
+        //array
+
 //        Scanner sc = new Scanner(System.in);
 //        int num[] = new int[20];
 //        int sourceEl, replaceEl, n, pos = 0;
@@ -375,7 +376,7 @@ public class PrimitiveArray {
 //        }
 //        int min=0,max=n-1,temp;
 //        while (min<max){
-//            while (arr[min]%2==0&& min<max)
+//            while (arr[min]%2==0 && min<max)
 //                min++;
 //            while (arr[max]%2!=0 && min<max)
 //                max--;
@@ -528,24 +529,25 @@ public class PrimitiveArray {
         //Program 24::
         //To find the missing elements in a given array
 
-        Scanner sc = new Scanner(System.in);
-        int arr[] = new int[20];
-        int n,i,j,k;
-        System.out.print("Enter size of the array: ");
-        n = sc.nextInt();
-        System.out.print("Enter the array elements: ");
-        for (i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        int x=arr[0];
-        for (i=0;i<n;i++){
-            if (arr[i]-i!=x){
-                while (x<arr[i]-i){
-                    System.out.print(x+i+" ");
-                    x++;
-                }
-            }
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int arr[] = new int[20];
+//        int n,i,j,k;
+//        System.out.print("Enter size of the array: ");
+//        n = sc.nextInt();
+//        System.out.print("Enter the array elements: ");
+//        for (i = 0; i < n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//        int x=arr[0];
+//        for (i=0;i<n;i++){
+//            if (arr[i]-i!=x){
+//                while (x<arr[i]-i){
+//                    System.out.print(x+i+" ");
+//                    x++;
+//                }
+//            }
+//        }
+
 //        for (i=0;i<n;i++){
 //            System.out.print(arr[i]+" ");
 //        }

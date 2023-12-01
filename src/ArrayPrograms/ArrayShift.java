@@ -34,12 +34,18 @@ public class ArrayShift {
                 indexN++;
             }
         }
+        for (int i=0;i<indexP;i++){
+            System.out.print(arrayP[i]+" ");
+        }
+        for (int i=0;i<indexN;i++){
+            System.out.print(arrayN[i]+" ");
+        }
 
         // Trimming arrays P and N to remove unused elements
-        arrayP = Arrays.copyOf(arrayP, indexP);
-        arrayN = Arrays.copyOf(arrayN, indexN);
-
-        System.out.println("Array P (positive even numbers): " + Arrays.toString(arrayP));
-        System.out.println("Array N (negative odd numbers): " + Arrays.toString(arrayN));
+//        arrayP = Arrays.copyOf(arrayP, indexP);
+//        arrayN = Arrays.copyOf(arrayN, indexN);
+//
+//        System.out.println("Array P (positive even numbers): " + Arrays.toString(arrayP));
+//        System.out.println("Array N (negative odd numbers): " + Arrays.toString(arrayN));
     }
 }

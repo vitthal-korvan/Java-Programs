@@ -5,7 +5,8 @@ of the array in ascending order and rest 50 elements into descending order.
  */
 import java.util.Arrays;
 
-public class ArraySorting {
+public class
+ArraySorting {
 
     public static void main(String[] args) {
         int[] array = new int[100];
