@@ -2,19 +2,19 @@ import java.util.Arrays;
 
 public class PrimitiveVsReference {
     public static void main(String[] args) {
-        int num1=7;
+        int num1=20;
         int num2=num1;
-        System.out.print(num1);
-        System.out.print(num2);
+        System.out.println(num1);
+        System.out.println(num2);
         num1++;
-        System.out.print(num1);
-        System.out.print(num2);
+        System.out.println(num1);
+        System.out.println(num2);
 
-        String[] arr1=new String[]{"apple, mango, banana, grapes, kiwi"};
-        String[] arr2=arr1;
+        int[] arr1=new int[]{1,2,3,4,5};
+        int[] arr2=arr1;
         System.out.print(Arrays.toString(arr1));
         System.out.print(Arrays.toString(arr2));
-        arr1[0]="mango";
+        arr2[0]=5;
         System.out.print(Arrays.toString(arr1));
         System.out.print(Arrays.toString(arr2));
 
