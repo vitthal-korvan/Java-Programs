@@ -1,4 +1,4 @@
-package Programs;
+package Patterns;
 //Patterns::
 import java.util.Scanner;
 public class PatternsNestedForLoopL1 {

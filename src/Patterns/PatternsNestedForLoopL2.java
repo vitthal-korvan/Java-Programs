@@ -1,4 +1,4 @@
-package Programs;
+package Patterns;
 //Pattern Level-2
 import java.util.Scanner;
 
