@@ -117,27 +117,27 @@ public class Recursion {
 
     // Prime Factors
 
-    static void primeFactors(int num, int i) {
-        if (i > num / 2) {
-            return;
-        }
-        if (num % i == 0) {
-            boolean flag = isPrime(i, 2);
-            if (flag) {
-                System.out.print(i + " ");
-            } else {
-                primeFactors(i, 2);
-            }
-        }
-        primeFactors(num, i + 1);
-    }
+//    static void primeFactors(int num, int i) {
+//        if (i > num / 2) {
+//            return;
+//        }
+//        if (num % i == 0) {
+//            boolean flag = isPrime(i, 2);
+//            if (flag) {
+//                System.out.print(i + " ");
+//            } else {
+//                primeFactors(i, 2);
+//            }
+//        }
+//        primeFactors(num, i + 1);
+//    }
 
-    static boolean isPrime(int factor, int i) {
-        if (i > factor / 2) {
-            return true;
-        }
-        return factor % i == 0 ? false : isPrime(factor, i + 1);
-    }
+//    static boolean isPrime(int factor, int i) {
+//        if (i > factor / 2) {
+//            return true;
+//        }
+//        return factor % i == 0 ? false : isPrime(factor, i + 1);
+//    }
 
 
     // Que. Print array elements using Recursions
