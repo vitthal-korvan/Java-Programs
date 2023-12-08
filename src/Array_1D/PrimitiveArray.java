@@ -234,27 +234,27 @@ public class PrimitiveArray {
 
         //Program 11::
         //To sort the elements in given array in ascending order
-        Scanner sc = new Scanner(System.in);
-        int arr[] = new int[20];
-        int n,i,j,temp,p;
-        System.out.print("Enter size of the array: ");
-        n = sc.nextInt();
-        System.out.print("Enter the array elements: ");
-        for (i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        for (i=0;i<n;i++){
-            for (j=i+1;j<n;j++){
-                if (arr[i]>arr[j]){
-                    temp=arr[i];
-                    arr[i]=arr[j];
-                    arr[j]=temp;
-                }
-            }
-            for (p=0;p<n;p++){
-                System.out.print(arr[p]+" ");
-            }
-            System.out.println();
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int arr[] = new int[20];
+//        int n,i,j,temp,p;
+//        System.out.print("Enter size of the array: ");
+//        n = sc.nextInt();
+//        System.out.print("Enter the array elements: ");
+//        for (i = 0; i < n; i++) {
+//            arr[i] = sc.nextInt();
+//        }
+//        for (i=0;i<n;i++){
+//            for (j=i+1;j<n;j++){
+//                if (arr[i]>arr[j]){
+//                    temp=arr[i];
+//                    arr[i]=arr[j];
+//                    arr[j]=temp;
+//                }
+//            }
+//            for (p=0;p<n;p++){
+//                System.out.print(arr[p]+" ");
+//            }
+//            System.out.println();
+//        }
     }
 }
