@@ -32,13 +32,13 @@ public class PatternsGoogleClassroom {
         /*
         Enter the n:
         7
-   *
-   *
-   *
-*******
-   *
-   *
-   *
+           *
+           *
+           *
+        *******
+           *
+           *
+           *
 
          */
 //        int i,j,n;
