@@ -33,7 +33,7 @@ Constraints:
 word1[i] and word2[i] consist of lowercase letters.
  */
 
-public class TwoStringsAreEqual {
+public class TwoStringsAreEqual_1662 {
     public static void main(String[] args) {
         String[] word1 = {"ab", "c"};
         String[] word2 = {"a", "bc"};

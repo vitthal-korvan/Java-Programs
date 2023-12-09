@@ -19,9 +19,18 @@ public class TernaryOperator {
 
         //Program 4::
         // Palindrome Using Ternary::
-        int n = 242;
-        String str;
-        str = (n%10==n/100 )?"Palindrome":"Not a Palindrome";
-        System.out.println(str);
+//        int n = 242;
+//        String str;
+//        str = (n%10==n/100 )?"Palindrome":"Not a Palindrome";
+//        System.out.println(str);
+
+        //Program 5::
+        // if input char is capital otherwise 0 with ternary operator
+        char ch = 'V';
+        int result;
+        //Valid
+        //result =(ch>='65' && ch<='90')?1:0;
+        result =(ch>='A' && ch<='Z')?1:0;
+        System.out.println(result);
     }
 }

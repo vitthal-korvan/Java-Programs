@@ -3,13 +3,12 @@ package LeetCodeProblems;
 
 import java.util.Scanner;
 
-public class XandO {
+public class TicTacToe {
     public static void main(String[] args) {
-
         String[][] games = new String[5][5];
-        x_and_o(games);
+        tic_Tac_Toe(games);
     }
-    static void x_and_o(String[][] game ){
+    static void tic_Tac_Toe(String[][] game ){
         Scanner sc = new Scanner(System.in);
         String[][] arr=new String[5][5];
         int i,j;
@@ -41,8 +40,26 @@ public class XandO {
             }
             System.out.println();
         }
-
         System.out.println("Program completed!");
     }
-
 }
+
+
+
+// 3*3 matrix -> 5*5 matrix
+
+/*
+
+   x| 0| x
+  __+__+__
+   0| 0 | x
+  __+__+__
+   0| x | 0
+
+   1,2 -> x
+   1,3 -> 0
+   input(): -> takes input from user
+   switchPlayer(): -> x 1,2 switch 0
+   isWin(): -> checks if win -> or draw
+
+ */
