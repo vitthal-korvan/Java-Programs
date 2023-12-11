@@ -71,6 +71,33 @@ stream(originalArray)-> 	Returns a sequential stream with the specified array as
 toString(originalArray)-> 	It returns a string representation of the contents of this array. The string representation consists of a list of the array’s elements, enclosed in square brackets (“[]”). Adjacent elements are separated by the characters a comma followed by a space. Elements are converted to strings as by String.valueOf() function.
 
  */
+
+
+/*
+
+Arrays are collections of data types, and their syntax includes the data type and size declaration.
+📌 Arrays in Java are stored in the heap memory, and heap objects are not guaranteed to be continuous.
+📌 The "new" keyword is used to create objects in Java, including arrays. It's associated with dynamic memory allocation.
+📌 Array indices start from 0, and accessing elements is done using these indices.
+📌 "null" is a special literal in Java representing the absence of a value and is commonly used for uninitialized reference variables.
+📚 2D arrays in Java can be visualized as arrays of arrays, where each individual index holds a reference to an array.
+🔄 You can iterate through array elements using a traditional for loop, an enhanced for-each loop, or utilize the `Arrays.toString()` method for simple printing.
+🔀 Java passes array references to functions by value, allowing functions to modify the original array data.
+🛠️ Defining a 2D array in Java involves specifying the number of rows, while the number of columns can vary for each row.
+🔄 The individual arrays within a 2D array can have varying sizes, making it possible to have jagged arrays where each row has a different number of columns.
+📚 Arrays in 2D can be accessed using index [row][column].
+📚 `array.length` returns number of rows in a 2D array.
+📚 Nested loops are used to input values in a 2D array.
+📚 Enhanced for loop simplifies iterating through 2D arrays.
+📚 ArrayList in Java allows dynamic resizing without specifying size.
+📚 ArrayList in Java is a dynamic data structure similar to arrays but with automatic resizing.
+🧬 ArrayList capacity increases dynamically by doubling its size when it reaches a certain threshold.
+🔍 ArrayList supports methods like add, remove, update, set, contains, and more for manipulating elements.
+⏰ ArrayList provides an amortized constant-time complexity for adding elements due to its dynamic resizing strategy.
+🔄 Swap and find maximum element in an ArrayList can be achieved through simple iterative loops and basic comparison logic.
+🔄 Reversing an array using the two-pointer method involves swapping elements from start to end and gradually moving the pointers towards each other.
+🔃 The reverse process works for both even and odd-length arrays, utilizing start and end pointers to achieve the reversal.
+ */
 import java.util.Scanner;
 
 public class PrimitiveArray {
@@ -78,9 +105,9 @@ public class PrimitiveArray {
         //Program 1::
         //Which initializes an array containing 5 roll numbers of a student and print the same
         //on the screen
-//        int rollno[]=new int[]{101,102,103,104,105};
-//        for (int i=0;i<rollno.length;i++){
-//            System.out.print(rollno[i]+" ");
+//        int roll[]=new int[]{101,102,103,104,105};
+//        for (int i=0;i<roll.length;i++){
+//            System.out.print(roll[i]+" ");
 //        }
 //        System.out.println();
 
