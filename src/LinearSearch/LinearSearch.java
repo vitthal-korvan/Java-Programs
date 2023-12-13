@@ -1,4 +1,4 @@
-package SearchingAndSorting;
+package LinearSearch;
 /*
 Searching Techniques::
 1. Linear/ Sequential Search

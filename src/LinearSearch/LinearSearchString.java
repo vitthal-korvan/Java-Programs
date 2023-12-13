@@ -1,5 +1,6 @@
-package SearchingAndSorting;
+package LinearSearch;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LinearSearchString {
@@ -9,7 +10,7 @@ public class LinearSearchString {
         char target;
         System.out.print("Enter the element to search in the array: ");
         target= sc.next().charAt(0);
-        //System.out.println(string.toCharArray());
+        System.out.println(Arrays.toString(string.toCharArray()));
         System.out.println(search(string,target));
     }
     static boolean search(String string, char target)
