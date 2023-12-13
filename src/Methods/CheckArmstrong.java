@@ -22,7 +22,7 @@ public class CheckArmstrong {
 
     }
     int checkArmstrong(int num){
-        int n,rem,sum=0,x,y,temp1,temp2,count=0;
+        int rem,sum=0,x,y,temp1,temp2,count=0;
         temp1=num;
         while(temp1>0)
         {
