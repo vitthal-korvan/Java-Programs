@@ -14,31 +14,32 @@ class LinearSearch {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        int n,x,i;
+        int size,target,index;
         System.out.print("Enter the size of the array: ");
-        n = sc.nextInt();
-        int[] arr = new int[n];
+        size = sc.nextInt();
+        int[] arr = new int[size];
         System.out.print("Enter the elements of the array: ");
-        for (i=0;i<n;i++){
-            arr[i]= sc.nextInt();
+        for (index=0;index<size;index++){
+            arr[index]= sc.nextInt();
         }
         System.out.print("Enter the element to search in the array: ");
-        x= sc.nextInt();
-        int index = search(arr, n, x);
-        if (index == -1)
+        target= sc.nextInt();
+        int found = search(arr, size, target);
+        if (found == -1)
             System.out.println("Element is not present in the array");
         else
-            System.out.println("Element found at position " + index);
+            System.out.println("Element found at position " + found);
     }
 
-    // This function returns index of element x in arr[]
-    static int search(int arr[], int n, int x)
+    // This function returns index of element target in arr[]
+    static int search(int arr[], int size, int target)
     {
-        for (int i = 0; i < n; i++) {
+        int index;
+        for ( index = 0; index < size; index++) {
             // Return the index of the element if the element
             // is found
-            if (arr[i] == x)
-                return i;
+            if (arr[index] == target)
+                return index;
         }
 
         // return -1 if the element is not found
