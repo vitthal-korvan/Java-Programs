@@ -58,7 +58,7 @@ public class EvenNumbersInArray_1295 {
 static int findNumbers(int[] nums) {
     int count =0,rem,count1;
     for(int i=0;i<nums.length;i++){
-        count1=(int)Math.log10(nums[i])+1;//optimized way  to find reminder
+        count1=(int)Math.log10(nums[i])+1;//optimized way to count digits
         if(count1%2==0){
             count++;
         }
